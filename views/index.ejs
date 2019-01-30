@@ -1,0 +1,14 @@
+<% include partials/header %>
+<!-- <% include partials/navbar %> -->
+    <center><h4 class="display-4"><%= title %></h4></center>
+
+    <% if(errors)
+    {
+         errors.forEach(function(error)
+        { %>
+            <div class="alert alert-danger" role="alert"><%= error.msg %> </div>
+        <% })
+    } %>
+
+            <center><a class="btn btn-dark" href="/auth/github">Login with GitHub</a></center>
+<% include partials/footer %>

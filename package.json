@@ -1,0 +1,37 @@
+{
+  "name": "assignment001",
+  "version": "1.0.0",
+  "description": "GitHub authentication on a ExpressJS app. Using MySQL and EJS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treboryx/assignment001.git"
+  },
+  "author": "treboryx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/treboryx/assignment001/issues"
+  },
+  "homepage": "https://github.com/treboryx/assignment001#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "node-fetch": "^2.3.0",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1"
+  }
+}

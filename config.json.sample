@@ -1,0 +1,10 @@
+{
+    "db_host"               : "localhost",
+    "db_username"           : "root",
+    "db_password"           : "",
+    "db_name"               : "app",
+    "port"                  : 3000,
+    "github_clientId"       : "",
+    "github_clientSecret"   : "",
+    "github_callback"       : ""
+}
